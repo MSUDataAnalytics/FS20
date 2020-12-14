@@ -1591,17 +1591,15 @@ lines(model_complexity, test_rmse, type = &amp;quot;b&amp;quot;, col = &amp;quot
     <item>
       <title>Final project</title>
       <link>/assignment/final-project/</link>
-      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       <guid>/assignment/final-project/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#requirements&#34;&gt;Requirements&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#teams&#34;&gt;Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#suggested-outline&#34;&gt;Suggested outline&lt;/a&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#suggested-outline&#34;&gt;Suggested outline&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#theory-and-background&#34;&gt;Theory and Background&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#data-and-analyses&#34;&gt;Data and Analyses&lt;/a&gt;&lt;/li&gt;
@@ -1626,7 +1624,7 @@ lines(model_complexity, test_rmse, type = &amp;quot;b&amp;quot;, col = &amp;quot
 &lt;li&gt;The same PDF as above, but with all the R code in it (set &lt;code&gt;echo = TRUE&lt;/code&gt; at the beginning of your document and reknit the file). Please label files in an obvious way.&lt;/li&gt;
 &lt;li&gt;A CSV file of your data; or a link to the data online if your code pulls from the internet. This must be a separate file titled “data.csv” or “data.txt” as applicable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This project is due by &lt;strong&gt;7:00 PM on Monday, December 14, 2020.&lt;/strong&gt; &lt;span style=&#34;color: #81056F; font-weight: bold&#34;&gt; No late work will be accepted.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This project is due by &lt;strong&gt;11:59 PM on Thursday, December 17, 2020.&lt;/strong&gt; &lt;span style=&#34;color: #81056F; font-weight: bold&#34;&gt; No late work will be accepted.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You can either run the analysis in RStudio locally on your computer (highly recommended!), since you won’t have to worry about keeping all your work on RStudio’s servers), or use an RStudio.cloud project.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;There is no final exam. This project is your final exam.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The project will &lt;strong&gt;&lt;em&gt;not&lt;/em&gt;&lt;/strong&gt; be graded using a check system, and will be graded by me (the main instructor, not a TA). I will evaluate the following four elements of your project:&lt;/p&gt;
@@ -1663,21 +1661,13 @@ lines(model_complexity, test_rmse, type = &amp;quot;b&amp;quot;, col = &amp;quot
 &lt;p&gt;A strike is a serious matter, and will reduce that team member’s grade on joint work by 10%. If any team-member gets strikes from all other members of his or her team, their grade will be reduced by 50%.&lt;/p&gt;
 &lt;p&gt;Strikes are &lt;em&gt;anonymous&lt;/em&gt; so that you do not need to fear social retaliation. However, they are not anonymous to allow you to issue them without thoughtful consideration. Perhaps the other person has a serious issue that is preventing them from completing work (e.g., a relative passing away). Please be thoughtful in using this remedy and consider it a last resort.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Do I really need to create a team GitHub repository? I don’t like GitHub / programming/ work.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Yes, you need to become familiar with GitHub and you and your team will work in a central repository for mini-projects and your final project.&lt;/p&gt;
-&lt;p&gt;This is for two reasons. First, computer scientists spent a huge amount of time coming up with the solutions that are implemented in GitHub (and other flavors of &lt;code&gt;git&lt;/code&gt;). Their efforts are largely dedicated toward solving a very concrete goal: how can two people edit the same thing at the same time without creating a ton of new issues. While you could use a paid variant of GitHub (e.g., you could all collaborate over the Microsoft Office suite as implemented by the 360 software that MSU provides), you’d ultimately have the following issues:
-1. The software doesn’t support some file types.
-2. The software doesn’t autosave versions.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; If someone accidentally deletes something, you’re in trouble.
-3. You have to learn an entirely new system every time you change classes / universities / jobs, because said institute doesn’t buy the product you love.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
 &lt;p&gt;I’m on a smaller-than-normal team. Does this mean that I have to do more work?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Your instructors are able to count and are aware the teams are imbalanced. Evaluations of final projects will take this into account. While your final product should reflect the best ability of your team, we do not anticipate that the uneven teams will lead to substantively different outputs.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;suggested-outline&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Suggested outline&lt;/h2&gt;
-&lt;p&gt;You must write and present your analysis as if presenting to a &lt;strong&gt;C-suite executive&lt;/strong&gt;. If you are not familiar with this terminology, the C-suite includes, e.g., the CEO, CFO, and COO of a given company. Generally speaking, such executives are not particularly analytically oriented, and therefore your explanations need to be clear, consise (their time is valuable) and contain actionable (or valuable) information.&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;
+&lt;p&gt;You must write and present your analysis as if presenting to a &lt;strong&gt;C-suite executive&lt;/strong&gt;. If you are not familiar with this terminology, the C-suite includes, e.g., the CEO, CFO, and COO of a given company. Generally speaking, such executives are not particularly analytically oriented, and therefore your explanations need to be clear, consise (their time is valuable) and contain actionable (or valuable) information.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;
 - Concretely, this requires a written memo, which describes the data, analyses, and results. This must be clear and easy to understand for a non-expert in your field. Figures and tables do not apply to the page limit.&lt;/p&gt;
 &lt;p&gt;Below is a very loose guide to the sort of content that we expect for the final project. Word limits are suggestions only. Note your final report will be approximately&lt;/p&gt;
 &lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
@@ -1717,9 +1707,7 @@ lines(model_complexity, test_rmse, type = &amp;quot;b&amp;quot;, col = &amp;quot
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Note that &lt;strong&gt;existing&lt;/strong&gt; is taken to mean that you are not permitted to collect data by interacting with other people. That is not to say that you cannot gather data that previously has not been gathered into a single place—this sort of exercise is encouraged. But you cannot stand with a clipboard outside a store and count visitors (for instance).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Some products, of course, solve this problem a little bit. For example, Dropbox allows users to share files with ease (of any file type) and saves a (coarse) version history. However, Dropbox does not allow multiple users to work on the same file, and has no way of merging edits together.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;This logic is also why we utilize only free software in this course. It sucks to get really good at, say, &lt;code&gt;SAS&lt;/code&gt; (as I did many years ago) only to realize that the software costs about $10000 and many firms are unwilling to spent that. We will try our best to avoid giving you dead-end skills.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;This exercise provides you with an opportunity to identify your marketable skills and to practice them. I encourage those who will be looking for jobs soon to take this exercise seriously.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;This exercise provides you with an opportunity to identify your marketable skills and to practice them. I encourage those who will be looking for jobs soon to take this exercise seriously.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
